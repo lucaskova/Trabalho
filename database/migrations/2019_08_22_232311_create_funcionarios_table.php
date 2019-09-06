@@ -18,6 +18,7 @@ class CreateFuncionariosTable extends Migration
             $table->string('nome');
             $table->string('sobrenome');
             $table->integer('idade');
+            $table->string('telefone');
             $table->integer('departamento_id')->unsigned();
             $table->foreign('departamento_id')->references('id')->on('departamentos')->onDelete('cascade');
             $table->timestamps();

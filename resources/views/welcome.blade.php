@@ -5,10 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Recados</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/app.css">
 
         <!-- Styles -->
         <style>
@@ -77,18 +78,24 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+
+
+
+            <div class="card-body">
+                
+
+                 <span class="border boder-danger">Recados</span> 
+                 <div class="card-body">
+                <textarea class="form-control"></textarea><br>
+                </div>              
+                <a href="#" class="btn btn-primary">Criar Recado</a>
                 </div>
+            </div>
+
+           
+
+
             </div>
         </div>
     </body>
